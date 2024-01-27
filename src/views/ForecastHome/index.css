@@ -1,0 +1,45 @@
+.forecastHomeMain{
+    background-color: #04a9f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whiteText{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.forecastsInfoBtns{
+    background: white !important;
+    color: #04a9f4 !important;
+    font-weight: bold !important;
+    width: 190px !important;
+    height: 40px !important;
+    margin: 0.4rem !important;
+}   
+.ButtonsDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.searchField{
+    width: 200px;
+    height: 34px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .forecastHomeMain {
+      display: block;
+      text-align: center;
+    }
+    .ButtonsDiv{
+        display: block;
+    }
+    .searchField{
+        margin-top: 1rem;
+        margin-bottom: 0.3rem;
+        width: 180px !important;
+    }
+  }

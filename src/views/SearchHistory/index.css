@@ -1,0 +1,13 @@
+.allhistoryMain{
+    background-color: #04a9f4;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    margin-top: -1.3rem;
+    padding-top: 2rem;
+}
+.whiteText{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
